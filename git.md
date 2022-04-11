@@ -85,3 +85,9 @@
          git remote
 
  
+Для примера, чтобы добавить данный файл в удаленный репозиторий, нужны выполнить команды:  
+
+        git remote add origin https://github.com/makurin86/Seminar_03.git
+        git branch -M master
+        git push origin master
+Здесь master -  ветка в которой вносятся изменения. По аналогии можно добавить и другие ветки. origin - Это имя по умолчанию для удален
